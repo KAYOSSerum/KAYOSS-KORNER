@@ -1,20 +1,46 @@
 body {
-  background: black;
+  margin: 0;
+  padding: 0;
+  background: #0d0d0d;
   color: white;
   font-family: Arial, sans-serif;
-  text-align: center;
-  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-button {
+.container {
+  text-align: center;
+}
+
+.brand {
+  font-size: 48px;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.card {
+  border: 1px solid #333;
+  padding: 20px;
+  margin-bottom: 30px;
+  background: #151515;
+}
+
+.shop-btn {
   background: white;
   color: black;
   border: none;
-  padding: 12px 20px;
+  padding: 12px 24px;
   cursor: pointer;
-  font-size: 16px;
+  font-weight: bold;
 }
 
-button:hover {
-  background: #ccc;
+.shop-btn:hover {
+  background: #ddd;
 }
